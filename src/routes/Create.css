@@ -1,0 +1,54 @@
+.create-post {
+    background-image: url("../assets/blog.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.create-post .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem 0;
+}
+
+.create-post .container h4 {
+    color: gainsboro;
+}
+
+.create-post .container form {
+    background-color: #f9f9f9;
+    border: 2px solid gainsboro;
+    border-radius: 4px;
+    padding: 0 15px;
+}
+
+.create-post .container form .input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-post .container form .input-container input[type="file"] {
+    cursor: pointer;
+}
+
+.create-post .container form .input-container textarea {
+    outline: none;
+    border: 1px solid gainsboro;
+    padding: 5px;
+    height: 90px;
+    resize: none;
+    border-radius: 2px;
+}
+
+.create-post .container form .input-container button {
+    padding: 9px 0;
+    border: none;
+    border-radius: 2px;
+    width: 100%;
+    background-color: #1c55a5;
+    color: gainsboro;
+    cursor: pointer;
+}

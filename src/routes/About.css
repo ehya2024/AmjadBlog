@@ -1,0 +1,12 @@
+.about-container {
+    display: grid;
+    align-content: center;
+    text-align: center;
+    height: 90vh;
+    gap: 1rem 0;
+    color: #4e4e4e;
+}
+
+.about-container > p {
+    line-height: 1.7;
+}

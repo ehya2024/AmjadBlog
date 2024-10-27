@@ -1,0 +1,38 @@
+.navbar {
+    background-color: #1c55a5;
+    height: 55px;
+    width: 100%;
+    border-bottom: 3px solid #2964b7;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar .container ul {
+    list-style-type: none;
+    display: flex;
+    gap: 0 1.2rem;
+    align-items: center;
+}
+
+.navbar .container ul li a {
+    text-decoration: none;
+    color: gainsboro;
+}
+
+.navbar .container ul li a.active {
+    color: skyblue;
+}
+
+.homeIcon {
+    font-size: 24px;
+    margin-top: 4px;
+}
+
+.navbar .container h3 {
+    color: gainsboro;
+}
